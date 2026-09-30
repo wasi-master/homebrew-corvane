@@ -8,7 +8,7 @@
 # always quarantines cask downloads, so `postflight_steps` clears the attribute.
 cask "corvane" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "35860ca05e5d373a4490347cb8e6cc779dfbc7a61f2b290bf295420f455b047a"
 
   url "https://github.com/wasi-master/corvane/releases/download/v#{version}/Corvane-#{version}-macos-universal.zip"
   name "Corvane"
