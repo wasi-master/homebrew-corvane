@@ -1,7 +1,7 @@
 # homebrew-corvane
 
-Homebrew tap for [Corvane](https://github.com/wasi-master/corvane), a native
-GitHub Desktop clone for macOS.
+[Homebrew](https://brew.sh/) tap for [Corvane](https://github.com/wasi-master/corvane), a native
+[GitHub Desktop](https://github.com/apps/desktop) clone for macOS.
 
 ## Install
 
