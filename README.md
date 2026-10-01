@@ -34,3 +34,6 @@ so macOS would block the first launch. Homebrew no longer supports
 brew uninstall --cask corvane
 brew uninstall --cask --zap corvane   # also removes settings and caches
 ```
+
+On Linux a plain uninstall leaves the menu entry's files behind (the entry
+hides itself once the AppImage is gone). `--zap` removes them too.
