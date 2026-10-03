@@ -1,5 +1,5 @@
 # Homebrew cask for Corvane (macOS and Linux). Lives in the
-# `wasi-master/homebrew-corvane` tap as `Casks/corvane.rb`.
+# `wasi-master/homebrew-corvene` tap as `Casks/corvane.rb`.
 # `packaging/homebrew/stamp.py` rewrites `version` and the `sha256` values
 # (`packaging/release.sh` for macOS, release.yml's `cask` job for Linux).
 #
@@ -22,7 +22,7 @@ cask "corvane" do
          x86_64_linux: "a0fabdee3b65e321a61d9c45730691117a9c37beda33f983e48ce1ef419b0ae6"
 
   on_macos do
-    url "https://github.com/wasi-master/corvane/releases/download/v#{version}/Corvane-#{version}-macos-universal.zip"
+    url "https://github.com/wasi-master/corvene/releases/download/v#{version}/Corvane-#{version}-macos-universal.zip"
 
     depends_on macos: :sequoia
 
@@ -46,7 +46,7 @@ cask "corvane" do
     ]
   end
   on_linux do
-    url "https://github.com/wasi-master/corvane/releases/download/v#{version}/Corvane-#{version}-#{arch}.AppImage"
+    url "https://github.com/wasi-master/corvene/releases/download/v#{version}/Corvane-#{version}-#{arch}.AppImage"
 
     # a fixed name: the updater knows the cask's image by its folder, and the
     # command line tool's link keeps pointing at it across upgrades
@@ -67,7 +67,7 @@ cask "corvane" do
 
   name "Corvane"
   desc "Native GitHub Desktop clone in Rust (GPUI + gitoxide)"
-  homepage "https://github.com/wasi-master/corvane"
+  homepage "https://github.com/wasi-master/corvene"
 
   livecheck do
     url :url
